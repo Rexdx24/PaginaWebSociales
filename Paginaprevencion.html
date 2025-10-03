@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prevención del Cáncer de Colon</title>
+  <meta name="description" content="Página de concientización y prevención del cáncer de colon: hábitos saludables, señales de alerta y cuándo hacer el despistaje." />
+  <!-- Tailwind vía CDN para estilos rápidos -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Ajustes suaves */
+    .card { @apply rounded-2xl bg-white shadow-sm ring-1 ring-slate-200; }
+    .pill { @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm ring-1 ring-slate-200 bg-white shadow-sm; }
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-white to-slate-50 text-slate-900 selection:bg-blue-200/60">
+  <!-- Hero -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-blue-100 via-transparent to-transparent" aria-hidden="true"></div>
+    <div class="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+      <div class="grid md:grid-cols-2 gap-8 items-center">
+        <div>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
+            Prevención del <span class="text-blue-700">Cáncer de Colon</span>
+          </h1>
+          <p class="mt-4 text-slate-700 text-lg">
+            Detectado a tiempo, el cáncer colorrectal es altamente tratable. La prevención empieza hoy: hábitos saludables y despistaje oportuno.
+          </p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <span class="pill">🛡️ Evitable en muchos casos</span>
+            <span class="pill">🩺 Despistaje salva vidas</span>
+            <span class="pill">💓 Tu salud, tu decisión</span>
+          </div>
+          <div class="mt-8 flex gap-3">
+            <a href="#test" class="inline-flex"><button class="rounded-2xl px-5 py-3 text-base bg-blue-600 text-white hover:bg-blue-700">Ver si me toca el despistaje</button></a>
+            <a href="#acciones" class="inline-flex"><button class="rounded-2xl px-5 py-3 text-base border border-slate-300 hover:bg-slate-50">Acciones concretas</button></a>
+          </div>
+        </div>
+        <div class="relative">
+          <!-- Ilustración simple -->
+          <div class="aspect-[4/3] w-full bg-white rounded-3xl shadow-lg ring-1 ring-slate-200 grid place-items-center p-8">
+            <svg viewBox="0 0 300 220" class="w-full h-full" aria-label="Ilustración de colon saludable">
+              <defs>
+                <linearGradient id="g1" x1="0" x2="1">
+                  <stop offset="0%" stop-color="#bfdbfe"/>
+                  <stop offset="100%" stop-color="#60a5fa"/>
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="300" height="220" rx="16" fill="url(#g1)" opacity="0.25" />
+              <path d="M40,110 C70,60 120,60 150,110 S230,160 260,110" fill="none" stroke="#0ea5e9" stroke-width="16" stroke-linecap="round" />
+              <circle cx="60" cy="110" r="6" fill="#0ea5e9" />
+              <circle cx="240" cy="110" r="6" fill="#0ea5e9" />
+              <text x="150" y="200" text-anchor="middle" font-size="14" fill="#0f172a">Cuidado y detección temprana</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ¿Por qué importa? -->
+  <section id="importa" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="flex items-start gap-3 mb-6">
+      <div class="p-2 rounded-2xl bg-blue-50 ring-1 ring-blue-100">ℹ️</div>
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">¿Por qué importa?</h2>
+        <p class="text-slate-600 mt-1">Informarse es el primer paso para prevenir.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card">
+        <div class="flex items-center gap-3 p-4 border-b border-slate-100"><div class="p-2 rounded-xl bg-blue-50 ring-1 ring-blue-100">🧠</div><h3 class="text-lg font-semibold">Común y prevenible</h3></div>
+        <div class="p-4 text-slate-700">Muchos casos se evitan con hábitos saludables y pruebas de despistaje.</div>
+      </div>
+      <div class="card">
+        <div class="flex items-center gap-3 p-4 border-b border-slate-100"><div class="p-2 rounded-xl bg-blue-50 ring-1 ring-blue-100">⏱️</div><h3 class="text-lg font-semibold">El tiempo cuenta</h3></div>
+        <div class="p-4 text-slate-700">Detectado temprano, la supervivencia mejora significativamente.</div>
+      </div>
+      <div class="card">
+        <div class="flex items-center gap-3 p-4 border-b border-slate-100"><div class="p-2 rounded-xl bg-blue-50 ring-1 ring-blue-100">🎓</div><h3 class="text-lg font-semibold">Conocimiento práctico</h3></div>
+        <div class="p-4 text-slate-700">Saber cuándo y cómo hacerse pruebas ayuda a decidir a tiempo.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Acciones concretas -->
+  <section id="acciones" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="flex items-start gap-3 mb-6">
+      <div class="p-2 rounded-2xl bg-emerald-50 ring-1 ring-emerald-100">🛡️</div>
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Acciones que reducen el riesgo</h2>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold flex items-center gap-2">🍎 Alimentación con fibra</div><div class="p-4 text-slate-700">Más frutas, verduras, legumbres y cereales integrales. Limita procesados y carnes rojas.</div></div>
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold flex items-center gap-2">🏃‍♀️ Muévete 150+ min/sem</div><div class="p-4 text-slate-700">Actividad física regular, evita el sedentarismo, mantén un peso saludable.</div></div>
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold flex items-center gap-2">🚭 Evita tabaco y exceso de alcohol</div><div class="p-4 text-slate-700">Ambos aumentan el riesgo de pólipos y cáncer.</div></div>
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold flex items-center gap-2">✅ Vacúnate y controla tu salud</div><div class="p-4 text-slate-700">Sigue esquemas de vacunación y chequeos; maneja condiciones como diabetes.</div></div>
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold flex items-center gap-2">👨‍👩‍👧 Conoce tus antecedentes</div><div class="p-4 text-slate-700">Si hay familiares con cáncer colorrectal o pólipos avanzados, consulta antes de los 45.</div></div>
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold flex items-center gap-2">👂 Escucha a tu cuerpo</div><div class="p-4 text-slate-700">Cambios en hábitos intestinales, sangre en heces o dolor persistente requieren evaluación.</div></div>
+    </div>
+  </section>
+
+  <!-- Test de elegibilidad simple -->
+  <section id="test" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="flex items-start gap-3 mb-6">
+      <div class="p-2 rounded-2xl bg-blue-50 ring-1 ring-blue-100">🩺</div>
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">¿Me toca el despistaje?</h2>
+        <p class="text-slate-600 mt-1">Guía orientativa. Consulta siempre con un profesional de salud.</p>
+      <p class="text-slate-600 mt-2">
+        📊 Según estudios, alrededor del <strong>90% de los casos de cáncer de colon se diagnostican en personas de 50 años o más</strong>. 
+        Por eso, la mayoría de guías recomienda iniciar el despistaje a los <strong>45 años</strong>.
+      </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="p-6 grid md:grid-cols-2 gap-8 items-start">
+        <div class="space-y-4">
+          <div>
+            <label for="age" class="block text-sm font-medium">Tu edad</label>
+            <input id="age" type="number" min="1" max="120" placeholder="Ej.: 46" class="mt-1 w-full rounded-xl border-slate-300 focus:ring-2 focus:ring-blue-500" />
+          </div>
+          <div class="flex items-center justify-between py-2">
+            <div>
+              <label for="fh" class="block text-sm font-medium">Antecedente familiar directo</label>
+              <p class="text-sm text-slate-600">Padre/madre o hermano/a con CCR o pólipos avanzados.</p>
+            </div>
+            <input id="fh" type="checkbox" class="h-5 w-5"/>
+          </div>
+          <div class="flex items-center justify-between py-2">
+            <div>
+              <label for="ibd" class="block text-sm font-medium">Enfermedad inflamatoria intestinal</label>
+              <p class="text-sm text-slate-600">Colitis ulcerosa o enfermedad de Crohn.</p>
+            </div>
+            <input id="ibd" type="checkbox" class="h-5 w-5"/>
+          </div>
+        </div>
+        <div>
+          <div class="p-5 rounded-2xl bg-blue-50 ring-1 ring-blue-100">
+            <p class="font-semibold">Resultado orientativo</p>
+            <p id="result" class="text-slate-700 mt-1">Ingresa tu edad para ver una recomendación orientativa.</p>
+            <ul class="mt-4 space-y-2 text-sm text-slate-700 list-disc pl-5">
+              <li>Opciones habituales: sangre oculta en heces (anual), test inmunoquímico fecal, colonoscopía periódica.</li>
+              <li>La elección de prueba y periodicidad debe personalizarse con tu médico.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Señales de alerta -->
+  <section id="sintomas" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="flex items-start gap-3 mb-6">
+      <div class="p-2 rounded-2xl bg-amber-50 ring-1 ring-amber-100">⚠️</div>
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Señales de alerta</h2>
+        <p class="text-slate-600 mt-1">Estos síntomas no siempre significan cáncer, pero ameritan consulta.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 gap-6">
+      <div class="card"><div class="p-6 text-slate-700">Cambios persistentes en el hábito intestinal (diarrea, estreñimiento o alternancia).</div></div>
+      <div class="card"><div class="p-6 text-slate-700">Sangre en heces o sangrado rectal.</div></div>
+      <div class="card"><div class="p-6 text-slate-700">Dolor abdominal persistente, gases o sensación de evacuación incompleta.</div></div>
+      <div class="card"><div class="p-6 text-slate-700">Pérdida de peso sin razón aparente, fatiga marcada.</div></div>
+    </div>
+  </section>
+
+  <!-- Llamado a la acción -->
+  <section id="cta" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="flex items-start gap-3 mb-6">
+      <div class="p-2 rounded-2xl bg-blue-50 ring-1 ring-blue-100">📞</div>
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Da el primer paso hoy</h2>
+        <p class="text-slate-600 mt-1">Pequeñas acciones, gran impacto.</p>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold">Agenda una cita</div><div class="p-4 text-slate-700">Habla con tu centro de salud sobre opciones de despistaje disponibles en tu zona.</div></div>
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold">Invita a tu familia</div><div class="p-4 text-slate-700">Conversa sobre antecedentes familiares y motívalos a evaluarse.</div></div>
+      <div class="card"><div class="p-4 border-b border-slate-100 font-semibold">Comparte información</div><div class="p-4 text-slate-700">Difunde este recurso en tu colegio, trabajo o comunidad.</div></div>
+    </div>
+  </section>
+
+  <!-- Recursos -->
+  <section id="recursos" class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <div class="flex items-start gap-3 mb-4">
+      <div class="p-2 rounded-2xl bg-blue-50 ring-1 ring-blue-100">🔗</div>
+      <h2 class="text-2xl sm:text-3xl font-bold tracking-tight">Recursos confiables</h2>
+    </div>
+    <ul class="grid md:grid-cols-2 gap-3 text-blue-700 underline">
+    <li><a href="https://www.gob.pe/minsa" target="_blank">Ministerio de Salud (MINSA)</a></li>
+    <li><a href="https://www.essalud.gob.pe" target="_blank">EsSalud</a></li>
+    <li><a href="https://www.inen.sld.pe/" target="_blank">Instituto Nacional de Enfermedades Neoplásicas (INEN)</a></li>
+    <li><a href="https://www.socgastroperu.org.pe/" target="_blank">Sociedad de Gastroenterología del Perú</a></li>
+  </ul>
+  <p class="text-sm text-slate-600 mt-3">Estos sitios ofrecen guías, campañas y orientación sobre despistaje y prevención.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-200 mt-10">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-slate-600">
+      <p class="font-medium">Aviso</p>
+      <p>Este contenido es informativo y no reemplaza el consejo de un profesional de la salud. Ante cualquier síntoma o duda, consulta con tu médico.</p>
+    </div>
+  </footer>
+
+  
+<script>
+  const ageInput = document.getElementById('age');
+  const fhInput = document.getElementById('fh');
+  const ibdInput = document.getElementById('ibd');
+  const resultEl = document.getElementById('result');
+
+  function updateMessage() {
+    const n = parseInt(ageInput.value || '0', 10);
+    const familyHistory = fhInput.checked;
+    const ibd = ibdInput.checked;
+
+    if (!n) {
+      resultEl.textContent = 'Ingresa tu edad para ver una recomendación orientativa.';
+      return;
+    }
+
+    let msg = '';
+    let due = false;
+
+    if (familyHistory || ibd) {
+      if (n >= 40) {
+        msg = "Consulta ya sobre pruebas de despistaje por riesgo aumentado (antecedentes familiares o enfermedad inflamatoria intestinal).";
+        due = true;
+      } else {
+        msg = "Podrías iniciar evaluación antes de los 45 años por tu riesgo familiar o EII. Consulta con un médico.";
+      }
+    } else {
+      if (n < 40) {
+        msg = "No se recomienda despistaje rutinario antes de los 40 años, salvo que tengas factores de riesgo.";
+      } else if (n < 45) {
+        msg = "Entre los 40 y 44 años, evalúa tus antecedentes. Si tienes factores de riesgo, consulta sobre iniciar el despistaje.";
+      } else if (n < 50) {
+        msg = "De los 45 a 49 años se recomienda iniciar el despistaje incluso sin factores de riesgo. Agenda tu prueba.";
+        due = true;
+      } else if (n <= 74) {
+        msg = "Entre los 50 y 74 años el despistaje es obligatorio. Cumple con la periodicidad indicada por tu médico.";
+        due = true;
+      } else {
+        msg = "A partir de los 75 años, el despistaje puede no ser necesario. La decisión debe individualizarse con tu médico.";
+      }
+    }
+
+    resultEl.textContent = msg + (due ? " (Esto no reemplaza una evaluación médica)." : "");
+  }
+
+  ageInput.addEventListener('input', updateMessage);
+  fhInput.addEventListener('change', updateMessage);
+  ibdInput.addEventListener('change', updateMessage);
+</script>
+
+</body>
+</html>

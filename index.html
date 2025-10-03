@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Prevención del Cáncer de Colon — Windows 98 style</title>
+<link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Sonidos -->
+  <audio id="sound-start" src="startup.wav"></audio>
+  <audio id="sound-click" src="click.wav"></audio>
+  <audio id="sound-close" src="close.wav"></audio>
+
+  <!-- Escritorio -->
+  <div class="desktop" id="desktop">
+    <div class="icon" data-app="concepto">
+      <img src="https://win98icons.alexmeub.com/icons/png/computer-5.png"/>
+      <div>Concepto</div>
+    </div>
+    <div class="icon" data-app="prevencion">
+      <img src="https://win98icons.alexmeub.com/icons/png/document-0.png"/>
+      <div>Prevención</div>
+    </div>
+    <div class="icon" data-app="receta">
+      <img src="https://win98icons.alexmeub.com/icons/png/notepad-2.png"/>
+      <div>Recetas</div>
+    </div>
+    <div class="icon" data-app="recursos">
+      <img src="https://win98icons.alexmeub.com/icons/png/directory_closed-4.png"/>
+      <div>Recursos</div>
+    </div>
+    <div class="icon" data-app="cita">
+      <img src="https://win98icons.alexmeub.com/icons/png/camera-2.png"/>
+      <div>Citas</div>
+    </div>
+    <div class="icon" data-app="fuentes" style="position:fixed; bottom:60px; left:10px;">
+      <img src="https://98.js.org/images/icons/internet-explorer-32x32.png"/>
+      <div>Fuentes</div>
+    </div>
+    <div class="icon" data-app="flippingbook">
+      <img src="https://win98icons.alexmeub.com/icons/png/help_book_cool-4.png"/>
+      <div>Libro Virtual</div>
+    </div>
+  </div>
+
+  <!-- Ventanas -->
+  <div class="window" id="win-concepto" style="left:80px;top:40px;">
+    <div class="titlebar"><div class="title">Concepto</div><div class="controls"><div class="btn close">X</div></div></div>
+    <div class="content">
+      <h2>Concepto de Cáncer de Colon</h2>
+      <img class="content-img" src="https://www.redaccionmedica.com/images/enfermedades/cancer-colon.jpg" alt="Colon"/>
+      <p>El <strong>cáncer de colon</strong> es una enfermedad en la que células anormales en el colon o recto se multiplican sin control. Generalmente comienza con pólipos que, si no se detectan, pueden transformarse en tumores malignos.</p>
+      <p><strong>Síntomas más comunes:</strong></p>
+      <ul>
+        <li>Cambios en los hábitos intestinales (diarrea o estreñimiento persistentes).</li>
+        <li>Sangrado rectal o heces oscuras con sangre.</li>
+        <li>Dolor abdominal recurrente, gases o cólicos.</li>
+        <li>Pérdida de peso sin causa aparente.</li>
+        <li>Fatiga crónica.</li>
+      </ul>
+      <p><strong>Factores de riesgo:</strong> Edad mayor a 50 años, dieta baja en fibra, obesidad, sedentarismo, antecedentes familiares, enfermedades inflamatorias intestinales.</p>
+      <p><strong>Tratamientos:</strong> Cirugía, quimioterapia, radioterapia y terapias dirigidas. La detección temprana incrementa la supervivencia.</p>
+    </div>
+    <div class="statusbar">Información ampliada</div>
+  </div>
+
+  <div class="window" id="win-prevencion" style="left:120px;top:70px;">
+    <div class="titlebar"><div class="title">Prevención</div><div class="controls"><div class="btn close">X</div></div></div>
+    <div class="content" style="height:420px; padding:0;">
+      <iframe class="embedded-iframe" src="Paginaprevencion.html" title="Prevención - Cáncer de Colon"></iframe>
+    </div>
+    <div class="statusbar">Consejos de prevención</div>
+  </div>
+
+<div class="window" id="win-receta" style="left:220px;top:110px;">
+  <div class="titlebar"><div class="title">Recetas Saludables</div><div class="controls"><div class="btn close">X</div></div></div>
+  <div class="content">
+    <!-- Receta 1 -->
+    <h2>Ensalada de Quinoa</h2>
+    <img class="content-img" src="https://danzadefogones.com/wp-content/uploads/2024/08/ensalada-de-quinoa-facil.jpg"/>
+    <p>Una receta nutritiva, rica en fibra y antioxidantes, ideal para una alimentación saludable.</p>
+    <h3>Ingredientes:</h3>
+    <ul>
+      <li>1 taza de quinoa cocida</li>
+      <li>1 pepino en cubos</li>
+      <li>2 tomates medianos</li>
+      <li>1 zanahoria rallada</li>
+      <li>Aceite de oliva, jugo de limón, sal y pimienta al gusto</li>
+    </ul>
+    <h3>Preparación:</h3>
+    <ol>
+      <li>Cocer la quinoa en agua con sal.</li>
+      <li>Mezclar con las verduras frescas.</li>
+      <li>Aliñar con aceite de oliva y limón.</li>
+    </ol>
+    <hr/>
+
+    <!-- Receta 2 -->
+    <h2>Sopa de Lentejas</h2>
+    <img class="content-img" src="https://www.perudelights.com/wp-content/uploads/2013/10/Lentil-soup.-jpg.jpg"/>
+    <p>Plato rico en proteínas vegetales y fibra, ayuda a mantener el colon saludable.</p>
+    <h3>Ingredientes:</h3>
+    <ul>
+      <li>1 taza de lentejas</li>
+      <li>1 zanahoria en cubos</li>
+      <li>1 cebolla picada</li>
+      <li>2 dientes de ajo</li>
+      <li>1 hoja de laurel</li>
+      <li>Sal y pimienta al gusto</li>
+    </ul>
+    <h3>Preparación:</h3>
+    <ol>
+      <li>Lavar las lentejas y colocarlas en una olla con agua.</li>
+      <li>Añadir la cebolla, zanahoria, ajo y laurel.</li>
+      <li>Cocer a fuego medio hasta que las lentejas estén blandas.</li>
+      <li>Sazonar con sal y pimienta.</li>
+    </ol>
+    <hr/>
+
+    <!-- Receta 3 -->
+    <h2>Ensalada Mediterránea</h2>
+    <img class="content-img" src="https://imag.bonviveur.com/ensalada-m	editerranea.jpg"/>
+    <p>Una ensalada fresca, rica en antioxidantes y grasas saludables.</p>
+    <h3>Ingredientes:</h3>
+    <ul>
+      <li>1 taza de garbanzos cocidos</li>
+      <li>Tomates cherry</li>
+      <li>Pepino en rodajas</li>
+      <li>Aceitunas negras</li>
+      <li>Aceite de oliva, orégano y limón</li>
+    </ul>
+    <h3>Preparación:</h3>
+    <ol>
+      <li>Mezclar los garbanzos con las verduras frescas.</li>
+      <li>Añadir las aceitunas.</li>
+      <li>Aliñar con aceite de oliva, orégano y limón.</li>
+    </ol>
+  </div>
+  <div class="statusbar">Recetas variadas y saludables</div>
+</div>
+
+  <div class="window" id="win-recursos" style="left:320px;top:160px;">
+    <div class="titlebar"><div class="title">Recursos</div><div class="controls"><div class="btn close">X</div></div></div>
+    <div class="content">
+      <h2>Recursos sobre el Cáncer de Colon</h2>
+      <img class="content-img" src="https://www.mienfermeraperu.com/uploads/4/5/3/7/4537905/c-ncer-estad-stica-2002-2025_1_orig.jpg" alt="Estadísticas cáncer de colon"/>
+      <p>El <strong>cáncer de colon</strong>, o cáncer colorrectal, es un tipo de cáncer muy común que afecta al intestino grueso y el recto, atacando toda la extensión del mismo.</p>
+      <p>Este es uno de los tipos de cáncer más agresivos y fatales que se conocen, ya que es muy difícil de diagnosticar en su estado inicial. Los cánceres colorrectales se desarrollan lentamente a lo largo de los años.</p>
+      <p>El riesgo de padecer cáncer de colon es de <strong>4.50% en varones</strong> y <strong>4.15% en mujeres</strong>, según la OMS. Es decir, <strong>una de cada veintidós personas</strong> es propensa a sufrir de este mal.</p>
+    </div>
+    <div class="statusbar">Información estadística</div>
+  </div>
+
+<div class="window" id="win-cita" style="left:180px;top:200px; width:560px;">
+  <div class="titlebar"><div class="title">CITA</div><div class="controls"><div class="btn close">X</div></div></div>
+  <div class="content">
+    <h2>Testimonios y Citas</h2>
+    <p>En esta sección se presentan audios con experiencias reales relacionadas con el cáncer de colon. Los relatos muestran la importancia de la detección temprana y del acompañamiento familiar durante el proceso.</p>
+    
+    <hr/>
+
+    <h3>🎧 Audio 1</h3>
+    <p><em>Sonia Flowers, de 46 años, comenzó con dolores abdominales y cansancio que ignoró pensando que era estrés. Con el tiempo, descubrieron que tenía cáncer de colon en estadio III. Fue operada y recibió quimioterapia, enfrentando anemia y fuertes efectos secundarios. A pesar de las dificultades, logró salir adelante y convirtió su experiencia en un mensaje para motivar a otros a hacerse chequeos preventivos y no ignorar los síntomas..</em></p>
+    <audio controls>
+      <source src="Podcast 1.mpeg" type="audio/mpeg">
+      Tu navegador no soporta audio en HTML5.
+    </audio>
+
+    <hr/>
+
+    <h3>🎧 Audio 2</h3>
+    <p><em>Pamela McColloch enfrentó un cáncer de colon que luego se extendió al hígado. Pasó por operaciones y tratamientos, pero asegura que lo que la sostuvo fue su fe, la oración, la lectura de la Biblia y el apoyo de su comunidad. Ella afirma que la fe le dio “claridad y calma” en medio del miedo.</em></p>
+    <audio controls>
+      <source src="Podcast 2.mpeg" type="audio/mpeg">
+      Tu navegador no soporta audio en HTML5.
+    </audio>
+
+    <hr/>
+
+    <h3>🎧 Audio 3</h3>
+    <p><em>Craig Cunningham, pastor cristiano, fue diagnosticado con cáncer colorrectal considerado inoperable por varios médicos. Sin rendirse, buscó otra opinión y llegó al hospital City of Hope, donde lo operaron exitosamente. Él afirma que su confianza en Dios y la oración fueron tan importantes como la cirugía.</em></p>
+    <audio controls>
+      <source src="Podcast 3.mpeg" type="audio/mpeg">
+      Tu navegador no soporta audio en HTML5.
+    </audio>
+  </div>
+  <div class="statusbar">Citas y testimonios</div>
+</div>
+
+
+  <div class="window" id="win-fuentes" style="left:400px;top:220px;">
+    <div class="titlebar"><div class="title">Fuentes</div><div class="controls"><div class="btn close">X</div></div></div>
+    <div class="content">
+      <h2>Fuentes de información</h2>
+      <ul>
+        <li><a href="https://www.who.int" target="_blank">OMS: Organización Mundial de la Salud</a></li>
+        <li><a href="https://www.cancer.org" target="_blank">American Cancer Society</a></li>
+        <li><a href="https://www.cdc.gov" target="_blank">CDC</a></li>
+        <li><a href="https://www.redaccionmedica.com" target="_blank">Redacción Médica: Concepto del cáncer de colon</a></li>
+        <li><a href="https://danzadefogones.com" target="_blank">Receta quinoa</a></li>
+        <li><a href="https://www.mienfermeraperu.com/blog/cancer-de-colon-que-es-y-como-se-presenta" target="_blank">Blog: Mienfermera Perú</a></li>
+        <li><a href="https://www.youtube.com/watch?v=AKlrIwKj0Do" target="_blank">Música de fondo (YouTube)</a></li>
+      </ul>
+    </div>
+    <div class="statusbar">Referencias</div>
+  </div>
+
+  <div class="window" id="win-flippingbook" style="left:500px;top:140px;width:600px;height:400px;">
+    <div class="titlebar"><div class="title">Libro Virtual</div><div class="controls"><div class="btn close">X</div></div></div>
+    <div class="content" style="height:1000%;padding:0;">
+      <iframe class="embedded-iframe big-book" src="https://online.flippingbook.com/view/435801761/" title="Libro Virtual"></iframe>
+    </div>
+    <div class="statusbar">Visualización completa</div>
+  </div>
+
+  <!-- Barra de tareas -->
+  <div class="taskbar">
+    <div class="start" id="startBtn"> <img src="https://win98icons.alexmeub.com/icons/png/windows-0.png"/> <strong>Inicio</strong></div>
+    <div class="task-buttons" id="taskButtons"></div>
+    <div class="clock" id="clock">00:00</div>
+  </div>
+
+  <!-- 🎶 Música de fondo en una esquina -->
+  <iframe 
+    width="200" height="120" 
+    src="https://www.youtube.com/embed/AKlrIwKj0Do?autoplay=1&loop=1&playlist=AKlrIwKj0Do" 
+    frameborder="0" 
+    allow="autoplay" 
+    style="position:fixed; bottom:50px; right:10px; z-index:999;">
+  </iframe>
+
+  <script src="index.js"></script>
+</body>
+</html>
